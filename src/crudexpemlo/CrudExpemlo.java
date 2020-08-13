@@ -19,10 +19,12 @@ public class CrudExpemlo {
      */
     public static void main(String[] args) {
        
-        TelaGestao tela=new TelaGestao();
-        
         Ficheiro ficheiro=new Ficheiro();
         ficheiro.CaminhoPrincipal();
+        
+        TelaGestao tela=new TelaGestao();
+        
+       
       
         
         

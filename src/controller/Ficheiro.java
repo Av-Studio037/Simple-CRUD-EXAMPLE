@@ -46,7 +46,7 @@ public class Ficheiro {
                 bancoDados.createNewFile();
                 
                 ArrayList<Pessoa> lista=new ArrayList();
-              File bancoDados=new File("C:\\Gestao\\bd.dat");
+              //File bancoDados=new File("C:\\Gestao\\bd.dat");
               ObjectOutputStream objectOutputStream=new ObjectOutputStream(new FileOutputStream(bancoDados));
               
              
